@@ -9,6 +9,6 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.50.0"
+    "node-telegram-bot-api": "^0.54.0"
   }
 }
