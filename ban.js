@@ -28,10 +28,10 @@ bot.on('message', (msg) => {
           // Ban the user
           bot.banChatMember(chatId, userId)
             .then(() => {
-              //bot.sendMessage(chatId, `User ${msg.from.first_name} has been banned for using a banned word or phrase.`);
+              bot.sendMessage(chatId, `User ${msg.from.first_name} has been banned for using a banned word or phrase.`);
             })
             .catch((error) => {
-              //bot.sendMessage(chatId, `Failed to ban user: ${error.message}`);
+              bot.sendMessage(chatId, `Failed to ban user: ${error.message}`);
             });
         })
         .catch((error) => {
