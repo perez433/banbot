@@ -2,7 +2,7 @@
   "name": "telegram-ban-bot",
   "version": "1.0.0",
   "description": "A Telegram bot that bans users who use specific words or phrases.",
-  "main": "banBot.js",
+  "main": "ban.js",
   "scripts": {
     "start": "node ban.js"
   },
